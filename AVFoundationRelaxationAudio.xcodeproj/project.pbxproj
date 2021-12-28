@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0BCFC515BC32CC1AF4EAE740 /* Pods_AVFoundationRelaxationAudio_AVFoundationRelaxationAudioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40F5CCDECBF97152AE37365F /* Pods_AVFoundationRelaxationAudio_AVFoundationRelaxationAudioUITests.framework */; };
+		8417E089277B7D68002298C4 /* DetailsAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8417E088277B7D68002298C4 /* DetailsAlertView.xib */; };
+		8417E08B277B8371002298C4 /* DetailsAlertUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8417E08A277B8371002298C4 /* DetailsAlertUIView.swift */; };
 		84BF5168277AD4A90036AC23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF5167277AD4A90036AC23 /* AppDelegate.swift */; };
 		84BF516A277AD4A90036AC23 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF5169277AD4A90036AC23 /* SceneDelegate.swift */; };
 		84BF516C277AD4A90036AC23 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF516B277AD4A90036AC23 /* AudioViewController.swift */; };
@@ -48,6 +50,8 @@
 		5CEA39217D8AEAA21DA536C6 /* Pods_AVFoundationRelaxationAudio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AVFoundationRelaxationAudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		69611DDE525044F611A8A4B6 /* Pods-AVFoundationRelaxationAudioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFoundationRelaxationAudioTests.release.xcconfig"; path = "Target Support Files/Pods-AVFoundationRelaxationAudioTests/Pods-AVFoundationRelaxationAudioTests.release.xcconfig"; sourceTree = "<group>"; };
 		6E403796F419BEE667BF823B /* Pods-AVFoundationRelaxationAudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFoundationRelaxationAudio.release.xcconfig"; path = "Target Support Files/Pods-AVFoundationRelaxationAudio/Pods-AVFoundationRelaxationAudio.release.xcconfig"; sourceTree = "<group>"; };
+		8417E088277B7D68002298C4 /* DetailsAlertView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailsAlertView.xib; sourceTree = "<group>"; };
+		8417E08A277B8371002298C4 /* DetailsAlertUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsAlertUIView.swift; sourceTree = "<group>"; };
 		84BF5164277AD4A90036AC23 /* AVFoundationRelaxationAudio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVFoundationRelaxationAudio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84BF5167277AD4A90036AC23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84BF5169277AD4A90036AC23 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +141,8 @@
 				84BF51A0277B28D70036AC23 /* Demi-Lovato-Sober-Official-Audio.mp3 */,
 				84BF516B277AD4A90036AC23 /* AudioViewController.swift */,
 				84BF519E277AD9450036AC23 /* StarsAndRainUIViewController.swift */,
+				8417E08A277B8371002298C4 /* DetailsAlertUIView.swift */,
+				8417E088277B7D68002298C4 /* DetailsAlertView.xib */,
 				84BF516D277AD4A90036AC23 /* Main.storyboard */,
 				84BF5173277AD4AC0036AC23 /* Assets.xcassets */,
 				84BF5175277AD4AC0036AC23 /* LaunchScreen.storyboard */,
@@ -289,6 +295,7 @@
 				84BF5177277AD4AC0036AC23 /* LaunchScreen.storyboard in Resources */,
 				84BF5174277AD4AC0036AC23 /* Assets.xcassets in Resources */,
 				84BF516F277AD4A90036AC23 /* Main.storyboard in Resources */,
+				8417E089277B7D68002298C4 /* DetailsAlertView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +427,7 @@
 				84BF5168277AD4A90036AC23 /* AppDelegate.swift in Sources */,
 				84BF516A277AD4A90036AC23 /* SceneDelegate.swift in Sources */,
 				84BF519F277AD9450036AC23 /* StarsAndRainUIViewController.swift in Sources */,
+				8417E08B277B8371002298C4 /* DetailsAlertUIView.swift in Sources */,
 				84BF5172277AD4A90036AC23 /* AVFoundationRelaxationAudio.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

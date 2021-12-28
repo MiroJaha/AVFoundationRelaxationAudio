@@ -83,7 +83,7 @@ class AudioViewController: UIViewController {
     }
     
     @IBAction func detailsButton(_ sender: UIButton) {
-        
+        DetailsAlertUIView.instance.showAlert()
     }
     
     @IBAction func trackingSliderController(_ sender: UISlider) {
