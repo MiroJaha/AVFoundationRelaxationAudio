@@ -1,24 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Audio View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="AudioViewController" customModule="AVFoundationRelaxationAudio" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pexels-photo-1010519" translatesAutoresizingMaskIntoConstraints="NO" id="GcT-jP-CA4">
+                                <rect key="frame" x="-10" y="-6" width="434" height="918"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pngkey.com-music-png-144659" translatesAutoresizingMaskIntoConstraints="NO" id="FXX-Bz-zC7">
+                                <rect key="frame" x="10" y="54" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="9TM-9c-uzN"/>
+                                    <constraint firstAttribute="width" constant="200" id="CxI-oV-2O6"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqw-wA-M2e">
+                                <rect key="frame" x="220" y="54" width="184" height="200"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="">
+                                    <imageReference key="image" image="playpause.fill" catalog="system" symbolScale="large" renderingMode="hierarchical-single">
+                                        <hierarchicalColors>
+                                            <color red="1" green="0.58431372549019611" blue="0.0" alpha="0.891156462585034" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color systemColor="secondaryLabelColor"/>
+                                            <color systemColor="tertiaryLabelColor"/>
+                                        </hierarchicalColors>
+                                    </imageReference>
+                                    <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30" scale="large"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="startPauseButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mby-vT-zGA"/>
+                                </connections>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="1hm-xp-D6f">
+                                <rect key="frame" x="18" y="274" width="378" height="31"/>
+                                <color key="tintColor" red="1" green="0.30051053010000001" blue="0.2269326445" alpha="0.89795918370000005" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="minimumTrackTintColor" red="1" green="0.30051053010000001" blue="0.2269326445" alpha="0.89795918370000005" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="maximumTrackTintColor" systemColor="systemYellowColor"/>
+                                <connections>
+                                    <action selector="trackingSliderController:" destination="BYZ-38-t0r" eventType="valueChanged" id="feb-L8-ZE1"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="STOP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TRs-Mc-Aj5">
+                                <rect key="frame" x="20" y="314" width="374" height="27.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5UO-mG-0T8">
+                                <rect key="frame" x="32" y="55" width="45" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="info.circle" catalog="system">
+                                    <color key="baseForegroundColor" systemColor="systemGreenColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="detailsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0pc-26-7dT"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="FXX-Bz-zC7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="CFS-8h-oBS"/>
+                            <constraint firstItem="1hm-xp-D6f" firstAttribute="top" secondItem="fqw-wA-M2e" secondAttribute="bottom" constant="20" id="F0g-tZ-KLH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TRs-Mc-Aj5" secondAttribute="trailing" constant="20" id="IdV-P2-DJP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GcT-jP-CA4" secondAttribute="bottom" constant="-50" id="JoF-6m-S7H"/>
+                            <constraint firstItem="1hm-xp-D6f" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Mol-2Q-bix"/>
+                            <constraint firstItem="GcT-jP-CA4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-50" id="b3H-rR-oSz"/>
+                            <constraint firstItem="TRs-Mc-Aj5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="f99-8G-39z"/>
+                            <constraint firstItem="FXX-Bz-zC7" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="gVt-zz-BHL"/>
+                            <constraint firstItem="fqw-wA-M2e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="hiS-Mz-Je4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1hm-xp-D6f" secondAttribute="trailing" constant="20" id="i5n-dV-3Sm"/>
+                            <constraint firstItem="TRs-Mc-Aj5" firstAttribute="top" secondItem="1hm-xp-D6f" secondAttribute="bottom" constant="10" id="ioe-o0-7kq"/>
+                            <constraint firstItem="GcT-jP-CA4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-10" id="mBY-pK-S6q"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GcT-jP-CA4" secondAttribute="trailing" constant="-10" id="oX2-dO-JxH"/>
+                            <constraint firstItem="1hm-xp-D6f" firstAttribute="top" secondItem="FXX-Bz-zC7" secondAttribute="bottom" constant="20" id="qyM-5R-NWA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fqw-wA-M2e" secondAttribute="trailing" constant="10" id="vwp-gh-3dw"/>
+                            <constraint firstItem="fqw-wA-M2e" firstAttribute="leading" secondItem="FXX-Bz-zC7" secondAttribute="trailing" constant="10" id="wjk-pJ-jjF"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="GcT-jP-CA4" id="edK-rw-7QS"/>
+                        <outlet property="trackingLabel" destination="TRs-Mc-Aj5" id="lDK-Mq-dAT"/>
+                        <outlet property="trackingUISlider" destination="1hm-xp-D6f" id="cNo-DI-S2O"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="139" y="106"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="info.circle" catalog="system" width="128" height="121"/>
+        <image name="pexels-photo-1010519" width="500" height="1228"/>
+        <image name="playpause.fill" catalog="system" width="128" height="70"/>
+        <image name="pngkey.com-music-png-144659" width="1178" height="1402"/>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
