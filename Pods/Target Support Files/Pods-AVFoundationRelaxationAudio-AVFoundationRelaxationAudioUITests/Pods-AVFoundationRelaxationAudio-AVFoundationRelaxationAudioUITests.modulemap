@@ -1,0 +1,6 @@
+framework module Pods_AVFoundationRelaxationAudio_AVFoundationRelaxationAudioUITests {
+  umbrella header "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

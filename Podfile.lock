@@ -1,0 +1,16 @@
+PODS:
+  - BAFluidView (0.2.6)
+
+DEPENDENCIES:
+  - BAFluidView
+
+SPEC REPOS:
+  trunk:
+    - BAFluidView
+
+SPEC CHECKSUMS:
+  BAFluidView: 4549a74865236c1ebb03fc06cddc979f7e28ac82
+
+PODFILE CHECKSUM: c75ab97e82ecc6728c0d5568f1e21a198e1eb421
+
+COCOAPODS: 1.11.2

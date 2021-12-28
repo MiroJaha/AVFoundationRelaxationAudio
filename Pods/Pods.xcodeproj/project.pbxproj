@@ -1,0 +1,983 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D1965E836ED215FB6743E9C1B5986A0 /* Pods-AVFoundationRelaxationAudio-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AFF007D00566B5FF924527A10FB28D8 /* Pods-AVFoundationRelaxationAudio-dummy.m */; };
+		22239AD344DA62C56256FD66D1EF29D9 /* BAFluidView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFA0178B8ACD20EBA47176723F55F52 /* BAFluidView-dummy.m */; };
+		271A0B44A546DD477E4D40384BAEF4E1 /* UIColor+ColorWithHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 796E060805E658962118110B995889A5 /* UIColor+ColorWithHex.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		27753AA65AFAF682C389E4A3732E38A0 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DDE36A29BD82C5FBDB6EBC1C3BA7C0 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-dummy.m */; };
+		662D791254241CE286E1BE1A49A7B328 /* BAFluidView.m in Sources */ = {isa = PBXBuildFile; fileRef = F38CD13F11B3280C5150D38350FE302C /* BAFluidView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		71CA5BD56E4F66BDBDA03A424664CA2E /* BAFluidView.h in Headers */ = {isa = PBXBuildFile; fileRef = 797FBE710F3A5182C975147AA5774C07 /* BAFluidView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75E8285628CF370045AFD756D381EEC1 /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D73F14AA43466FE3D36828D015B90A1 /* Constants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		814212ACD3E01D19E034E698C9A7EAC6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		8F0ECBB5D65ED041EC74519B2E66F05D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		9C04BD8F252201C482555FE1912C1F08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		A1188E1187C854A32138AA72643A75DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		AB54CC871799DC8575BFAD1CE1A7681B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		C212890C81500D01901761D462CE4B23 /* BAFluidView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CE692BE15C50F6724E2A6D78C2035C3 /* BAFluidView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2C85AC33D5C1D3C89E53A8529367774 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7414B526BCE10DA54EE5AD0194D37FB6 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2692C96A29511A6F09E3BF720B84431 /* Pods-AVFoundationRelaxationAudioTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAB446DF96A093BC7A8F1533A99C92D7 /* Pods-AVFoundationRelaxationAudioTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E534AE1AD906ABB728E0EE2695A81994 /* Pods-AVFoundationRelaxationAudio-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C4E08FD20BFC7A394A44A65D0335AB5 /* Pods-AVFoundationRelaxationAudio-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED8D7DC0C81403DE758E882FA9CE62FF /* UIColor+ColorWithHex.h in Headers */ = {isa = PBXBuildFile; fileRef = 06A8C361F3F220AB1FA39C4638A0AD79 /* UIColor+ColorWithHex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED9320D3B9B029FE08D1D4796FF412C9 /* Pods-AVFoundationRelaxationAudioTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7849E4DD406D2767F8FA4D8C3D438FB5 /* Pods-AVFoundationRelaxationAudioTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CCD380597848CDB8F907A521D3E60F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521B89D018DE6930928376B79FBC69C1;
+			remoteInfo = BAFluidView;
+		};
+		6E3A18527F1AD610D23846DDDCDF2E22 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 521B89D018DE6930928376B79FBC69C1;
+			remoteInfo = BAFluidView;
+		};
+		8E5E8BE2807F57D61C8247E1EE8DD02C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFC35080F0DE5B31F2CD933E4EF7E66A;
+			remoteInfo = "Pods-AVFoundationRelaxationAudio";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06A8C361F3F220AB1FA39C4638A0AD79 /* UIColor+ColorWithHex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ColorWithHex.h"; path = "Sources/BAFluidView/include/UIColor+ColorWithHex.h"; sourceTree = "<group>"; };
+		16E2E8E7C8631890D832DCE0CD59706E /* BAFluidView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BAFluidView.debug.xcconfig; sourceTree = "<group>"; };
+		235871E7E88E4253569173E7384FBE6C /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.modulemap"; sourceTree = "<group>"; };
+		29069B82DAF558F5892A7A0FE088C60F /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-Info.plist"; sourceTree = "<group>"; };
+		298717A54DEC47066B61E3781C6706EF /* Pods-AVFoundationRelaxationAudio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AVFoundationRelaxationAudio-Info.plist"; sourceTree = "<group>"; };
+		2AFF007D00566B5FF924527A10FB28D8 /* Pods-AVFoundationRelaxationAudio-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AVFoundationRelaxationAudio-dummy.m"; sourceTree = "<group>"; };
+		2C7205F93CEDFE2EF5A9FC011BBAF3B0 /* BAFluidView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BAFluidView.release.xcconfig; sourceTree = "<group>"; };
+		3CE692BE15C50F6724E2A6D78C2035C3 /* BAFluidView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BAFluidView-umbrella.h"; sourceTree = "<group>"; };
+		3DAF11E7AE031C7EEA1DE0FA77CFFC33 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		430E086267B26ADE9E8DE8DEA1DC8BA6 /* Pods-AVFoundationRelaxationAudioTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AVFoundationRelaxationAudioTests"; path = Pods_AVFoundationRelaxationAudioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D73F14AA43466FE3D36828D015B90A1 /* Constants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Sources/BAFluidView/include/Constants.h; sourceTree = "<group>"; };
+		5E0B1BA73249992F49D6781B92A8AD75 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5E36805A67A81F5D0D5A1E09EF20D985 /* BAFluidView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BAFluidView-Info.plist"; sourceTree = "<group>"; };
+		6669E5810BFC6AFD0B4F317B21413261 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		670F010086D04EC9DBCC584A82D939E5 /* Pods-AVFoundationRelaxationAudio-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AVFoundationRelaxationAudio-acknowledgements.plist"; sourceTree = "<group>"; };
+		697712E85582AD081BF9EDAE6BB359F2 /* Pods-AVFoundationRelaxationAudioTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AVFoundationRelaxationAudioTests.modulemap"; sourceTree = "<group>"; };
+		7414B526BCE10DA54EE5AD0194D37FB6 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-umbrella.h"; sourceTree = "<group>"; };
+		749F130136BA16E75F38E60FDC721D25 /* BAFluidView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BAFluidView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75951D97651D6C0E3834FA33D398E8FF /* Pods-AVFoundationRelaxationAudioTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AVFoundationRelaxationAudioTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7849E4DD406D2767F8FA4D8C3D438FB5 /* Pods-AVFoundationRelaxationAudioTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AVFoundationRelaxationAudioTests-dummy.m"; sourceTree = "<group>"; };
+		7930F0FA882022541C4F1C54AF25A6D7 /* Pods-AVFoundationRelaxationAudioTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AVFoundationRelaxationAudioTests-Info.plist"; sourceTree = "<group>"; };
+		796E060805E658962118110B995889A5 /* UIColor+ColorWithHex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ColorWithHex.m"; path = "Sources/BAFluidView/UIColor+ColorWithHex.m"; sourceTree = "<group>"; };
+		797FBE710F3A5182C975147AA5774C07 /* BAFluidView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BAFluidView.h; path = Sources/BAFluidView/include/BAFluidView.h; sourceTree = "<group>"; };
+		7D1DFCAC32453D5E02B7DEF3FA02314E /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests"; path = Pods_AVFoundationRelaxationAudio_AVFoundationRelaxationAudioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCE85DD3EA5B0CDF91895836E94DF58 /* Pods-AVFoundationRelaxationAudioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVFoundationRelaxationAudioTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F16F186F02FEE4F1822C2F70C104146 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		98E30F6D393A35124838138A54605A06 /* Pods-AVFoundationRelaxationAudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVFoundationRelaxationAudio.debug.xcconfig"; sourceTree = "<group>"; };
+		9C4E08FD20BFC7A394A44A65D0335AB5 /* Pods-AVFoundationRelaxationAudio-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AVFoundationRelaxationAudio-umbrella.h"; sourceTree = "<group>"; };
+		9D4E69D4F839F9A4CCD9875D32E9D316 /* Pods-AVFoundationRelaxationAudio-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AVFoundationRelaxationAudio-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD6092F03FDB31A78676BDFCF28E4AA1 /* BAFluidView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BAFluidView-prefix.pch"; sourceTree = "<group>"; };
+		B9DDE36A29BD82C5FBDB6EBC1C3BA7C0 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-dummy.m"; sourceTree = "<group>"; };
+		BA1CE6F27B39BE4318B26540B53BE931 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-frameworks.sh"; sourceTree = "<group>"; };
+		BD231BE4AEBAAE90B95878537E4C27EB /* Pods-AVFoundationRelaxationAudio-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AVFoundationRelaxationAudio-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE95C1735BAF14E0B462543199D6BA6B /* Pods-AVFoundationRelaxationAudioTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AVFoundationRelaxationAudioTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C3DEA402A7478B27DE161031AF10FFB9 /* Pods-AVFoundationRelaxationAudioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVFoundationRelaxationAudioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C49A932E96F394B94F957FCC8CBBEB82 /* Pods-AVFoundationRelaxationAudio */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AVFoundationRelaxationAudio"; path = Pods_AVFoundationRelaxationAudio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DEDAB3528F41838A7D9F6E5E29D597E9 /* BAFluidView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BAFluidView.modulemap; sourceTree = "<group>"; };
+		E9B6B7BF2EBEEB4F2B9893406F718A12 /* Pods-AVFoundationRelaxationAudio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AVFoundationRelaxationAudio.modulemap"; sourceTree = "<group>"; };
+		EAB446DF96A093BC7A8F1533A99C92D7 /* Pods-AVFoundationRelaxationAudioTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AVFoundationRelaxationAudioTests-umbrella.h"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EDFA0178B8ACD20EBA47176723F55F52 /* BAFluidView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BAFluidView-dummy.m"; sourceTree = "<group>"; };
+		F38CD13F11B3280C5150D38350FE302C /* BAFluidView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BAFluidView.m; path = Sources/BAFluidView/BAFluidView.m; sourceTree = "<group>"; };
+		FE2666DF0B4A1E0208A4EE9FE21EF947 /* Pods-AVFoundationRelaxationAudio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AVFoundationRelaxationAudio.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D07795473ECAFCE829AF78CF50E6024 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1188E1187C854A32138AA72643A75DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BFD3A9E58D099F0ED5895C0A4989159 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C04BD8F252201C482555FE1912C1F08 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79FA872FEA8BD01FF344742C90F7E74E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F0ECBB5D65ED041EC74519B2E66F05D /* Foundation.framework in Frameworks */,
+				814212ACD3E01D19E034E698C9A7EAC6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3DC20F811CCB9436546868BAB34CD12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB54CC871799DC8575BFAD1CE1A7681B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32E1CCCE164D6F2F3BC86BF3879548FE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEDAB3528F41838A7D9F6E5E29D597E9 /* BAFluidView.modulemap */,
+				EDFA0178B8ACD20EBA47176723F55F52 /* BAFluidView-dummy.m */,
+				5E36805A67A81F5D0D5A1E09EF20D985 /* BAFluidView-Info.plist */,
+				AD6092F03FDB31A78676BDFCF28E4AA1 /* BAFluidView-prefix.pch */,
+				3CE692BE15C50F6724E2A6D78C2035C3 /* BAFluidView-umbrella.h */,
+				16E2E8E7C8631890D832DCE0CD59706E /* BAFluidView.debug.xcconfig */,
+				2C7205F93CEDFE2EF5A9FC011BBAF3B0 /* BAFluidView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BAFluidView";
+			sourceTree = "<group>";
+		};
+		46F2EEC6A90A22E08EABF2C75C9F6121 /* Pods-AVFoundationRelaxationAudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				697712E85582AD081BF9EDAE6BB359F2 /* Pods-AVFoundationRelaxationAudioTests.modulemap */,
+				75951D97651D6C0E3834FA33D398E8FF /* Pods-AVFoundationRelaxationAudioTests-acknowledgements.markdown */,
+				BE95C1735BAF14E0B462543199D6BA6B /* Pods-AVFoundationRelaxationAudioTests-acknowledgements.plist */,
+				7849E4DD406D2767F8FA4D8C3D438FB5 /* Pods-AVFoundationRelaxationAudioTests-dummy.m */,
+				7930F0FA882022541C4F1C54AF25A6D7 /* Pods-AVFoundationRelaxationAudioTests-Info.plist */,
+				EAB446DF96A093BC7A8F1533A99C92D7 /* Pods-AVFoundationRelaxationAudioTests-umbrella.h */,
+				C3DEA402A7478B27DE161031AF10FFB9 /* Pods-AVFoundationRelaxationAudioTests.debug.xcconfig */,
+				8DCE85DD3EA5B0CDF91895836E94DF58 /* Pods-AVFoundationRelaxationAudioTests.release.xcconfig */,
+			);
+			name = "Pods-AVFoundationRelaxationAudioTests";
+			path = "Target Support Files/Pods-AVFoundationRelaxationAudioTests";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7FB7CA9E83CA43FD7F8BDC620020D0DD /* Pods-AVFoundationRelaxationAudio */ = {
+			isa = PBXGroup;
+			children = (
+				E9B6B7BF2EBEEB4F2B9893406F718A12 /* Pods-AVFoundationRelaxationAudio.modulemap */,
+				BD231BE4AEBAAE90B95878537E4C27EB /* Pods-AVFoundationRelaxationAudio-acknowledgements.markdown */,
+				670F010086D04EC9DBCC584A82D939E5 /* Pods-AVFoundationRelaxationAudio-acknowledgements.plist */,
+				2AFF007D00566B5FF924527A10FB28D8 /* Pods-AVFoundationRelaxationAudio-dummy.m */,
+				9D4E69D4F839F9A4CCD9875D32E9D316 /* Pods-AVFoundationRelaxationAudio-frameworks.sh */,
+				298717A54DEC47066B61E3781C6706EF /* Pods-AVFoundationRelaxationAudio-Info.plist */,
+				9C4E08FD20BFC7A394A44A65D0335AB5 /* Pods-AVFoundationRelaxationAudio-umbrella.h */,
+				98E30F6D393A35124838138A54605A06 /* Pods-AVFoundationRelaxationAudio.debug.xcconfig */,
+				FE2666DF0B4A1E0208A4EE9FE21EF947 /* Pods-AVFoundationRelaxationAudio.release.xcconfig */,
+			);
+			name = "Pods-AVFoundationRelaxationAudio";
+			path = "Target Support Files/Pods-AVFoundationRelaxationAudio";
+			sourceTree = "<group>";
+		};
+		97F75829E5DE804CCCA2FB717D0201B4 /* BAFluidView */ = {
+			isa = PBXGroup;
+			children = (
+				797FBE710F3A5182C975147AA5774C07 /* BAFluidView.h */,
+				F38CD13F11B3280C5150D38350FE302C /* BAFluidView.m */,
+				4D73F14AA43466FE3D36828D015B90A1 /* Constants.h */,
+				06A8C361F3F220AB1FA39C4638A0AD79 /* UIColor+ColorWithHex.h */,
+				796E060805E658962118110B995889A5 /* UIColor+ColorWithHex.m */,
+				32E1CCCE164D6F2F3BC86BF3879548FE /* Support Files */,
+			);
+			path = BAFluidView;
+			sourceTree = "<group>";
+		};
+		9E94C249431261FB84C6F2ACA2C4DAA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97F75829E5DE804CCCA2FB717D0201B4 /* BAFluidView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CCD5FA9C49AF439012B998134AA67750 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FB7CA9E83CA43FD7F8BDC620020D0DD /* Pods-AVFoundationRelaxationAudio */,
+				FDD9FE2A10AD5633682975AA6DB19DF1 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests */,
+				46F2EEC6A90A22E08EABF2C75C9F6121 /* Pods-AVFoundationRelaxationAudioTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				9E94C249431261FB84C6F2ACA2C4DAA7 /* Pods */,
+				FDB73BF2FA4A714445CAA44E60825215 /* Products */,
+				CCD5FA9C49AF439012B998134AA67750 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB73BF2FA4A714445CAA44E60825215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				749F130136BA16E75F38E60FDC721D25 /* BAFluidView.framework */,
+				C49A932E96F394B94F957FCC8CBBEB82 /* Pods-AVFoundationRelaxationAudio */,
+				7D1DFCAC32453D5E02B7DEF3FA02314E /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests */,
+				430E086267B26ADE9E8DE8DEA1DC8BA6 /* Pods-AVFoundationRelaxationAudioTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD9FE2A10AD5633682975AA6DB19DF1 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				235871E7E88E4253569173E7384FBE6C /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.modulemap */,
+				5E0B1BA73249992F49D6781B92A8AD75 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-acknowledgements.markdown */,
+				8F16F186F02FEE4F1822C2F70C104146 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-acknowledgements.plist */,
+				B9DDE36A29BD82C5FBDB6EBC1C3BA7C0 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-dummy.m */,
+				BA1CE6F27B39BE4318B26540B53BE931 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-frameworks.sh */,
+				29069B82DAF558F5892A7A0FE088C60F /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-Info.plist */,
+				7414B526BCE10DA54EE5AD0194D37FB6 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-umbrella.h */,
+				6669E5810BFC6AFD0B4F317B21413261 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.debug.xcconfig */,
+				3DAF11E7AE031C7EEA1DE0FA77CFFC33 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.release.xcconfig */,
+			);
+			name = "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests";
+			path = "Target Support Files/Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0A1CA50F707FFD931F50886470EA3C3B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2692C96A29511A6F09E3BF720B84431 /* Pods-AVFoundationRelaxationAudioTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A8B9FC118D308EF05C4685CECEAE360 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2C85AC33D5C1D3C89E53A8529367774 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99837DB0479D6641FD11A6901AFB649C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71CA5BD56E4F66BDBDA03A424664CA2E /* BAFluidView.h in Headers */,
+				C212890C81500D01901761D462CE4B23 /* BAFluidView-umbrella.h in Headers */,
+				75E8285628CF370045AFD756D381EEC1 /* Constants.h in Headers */,
+				ED8D7DC0C81403DE758E882FA9CE62FF /* UIColor+ColorWithHex.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3CF8D624F88A8FC70788C62E6B293A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E534AE1AD906ABB728E0EE2695A81994 /* Pods-AVFoundationRelaxationAudio-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		227CD552DB4D51AA07A80E801308DE49 /* Pods-AVFoundationRelaxationAudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71059D3EF335C1AA9606421C7BE65FA0 /* Build configuration list for PBXNativeTarget "Pods-AVFoundationRelaxationAudioTests" */;
+			buildPhases = (
+				0A1CA50F707FFD931F50886470EA3C3B /* Headers */,
+				F5F65A2FCFD3308A6F6E36793B342E2E /* Sources */,
+				3D07795473ECAFCE829AF78CF50E6024 /* Frameworks */,
+				4051249A0D0A7A21B2719CFAFA998745 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3FBBE550028A8767B835B93CFA4F883 /* PBXTargetDependency */,
+			);
+			name = "Pods-AVFoundationRelaxationAudioTests";
+			productName = Pods_AVFoundationRelaxationAudioTests;
+			productReference = 430E086267B26ADE9E8DE8DEA1DC8BA6 /* Pods-AVFoundationRelaxationAudioTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		2DD57A2C3017F9312B526704C92E966C /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 384AF282CD77255D45DE91D52396B0EA /* Build configuration list for PBXNativeTarget "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests" */;
+			buildPhases = (
+				0A8B9FC118D308EF05C4685CECEAE360 /* Headers */,
+				F6A11E6B5388C60860A54051F646AE4C /* Sources */,
+				B3DC20F811CCB9436546868BAB34CD12 /* Frameworks */,
+				BA041758793B42E859EFF6BB1CC99C21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				328611285F0084DEB41F7F22A1AEBADA /* PBXTargetDependency */,
+			);
+			name = "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests";
+			productName = Pods_AVFoundationRelaxationAudio_AVFoundationRelaxationAudioUITests;
+			productReference = 7D1DFCAC32453D5E02B7DEF3FA02314E /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		521B89D018DE6930928376B79FBC69C1 /* BAFluidView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E48EBCA47D2FCE087834F9CD5432227 /* Build configuration list for PBXNativeTarget "BAFluidView" */;
+			buildPhases = (
+				99837DB0479D6641FD11A6901AFB649C /* Headers */,
+				DD604A60A0AD917CA0991FD69704935F /* Sources */,
+				79FA872FEA8BD01FF344742C90F7E74E /* Frameworks */,
+				D6FF7329F46DB9D96CDB3BA7618C0471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BAFluidView;
+			productName = BAFluidView;
+			productReference = 749F130136BA16E75F38E60FDC721D25 /* BAFluidView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFC35080F0DE5B31F2CD933E4EF7E66A /* Pods-AVFoundationRelaxationAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EE34F1C336469295EA92690223EC0E1 /* Build configuration list for PBXNativeTarget "Pods-AVFoundationRelaxationAudio" */;
+			buildPhases = (
+				D3CF8D624F88A8FC70788C62E6B293A6 /* Headers */,
+				8C42D7711086FC37E85B02BBC45D8DBF /* Sources */,
+				4BFD3A9E58D099F0ED5895C0A4989159 /* Frameworks */,
+				5608EC763215D507A34C2CDFF605A0A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A177ED7C81379A0D3B0116A52C11DF5C /* PBXTargetDependency */,
+			);
+			name = "Pods-AVFoundationRelaxationAudio";
+			productName = Pods_AVFoundationRelaxationAudio;
+			productReference = C49A932E96F394B94F957FCC8CBBEB82 /* Pods-AVFoundationRelaxationAudio */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FDB73BF2FA4A714445CAA44E60825215 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				521B89D018DE6930928376B79FBC69C1 /* BAFluidView */,
+				FFC35080F0DE5B31F2CD933E4EF7E66A /* Pods-AVFoundationRelaxationAudio */,
+				2DD57A2C3017F9312B526704C92E966C /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests */,
+				227CD552DB4D51AA07A80E801308DE49 /* Pods-AVFoundationRelaxationAudioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4051249A0D0A7A21B2719CFAFA998745 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5608EC763215D507A34C2CDFF605A0A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA041758793B42E859EFF6BB1CC99C21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FF7329F46DB9D96CDB3BA7618C0471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C42D7711086FC37E85B02BBC45D8DBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D1965E836ED215FB6743E9C1B5986A0 /* Pods-AVFoundationRelaxationAudio-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD604A60A0AD917CA0991FD69704935F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				662D791254241CE286E1BE1A49A7B328 /* BAFluidView.m in Sources */,
+				22239AD344DA62C56256FD66D1EF29D9 /* BAFluidView-dummy.m in Sources */,
+				271A0B44A546DD477E4D40384BAEF4E1 /* UIColor+ColorWithHex.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5F65A2FCFD3308A6F6E36793B342E2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9320D3B9B029FE08D1D4796FF412C9 /* Pods-AVFoundationRelaxationAudioTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A11E6B5388C60860A54051F646AE4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27753AA65AFAF682C389E4A3732E38A0 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		328611285F0084DEB41F7F22A1AEBADA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BAFluidView;
+			target = 521B89D018DE6930928376B79FBC69C1 /* BAFluidView */;
+			targetProxy = 4CCD380597848CDB8F907A521D3E60F0 /* PBXContainerItemProxy */;
+		};
+		A177ED7C81379A0D3B0116A52C11DF5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BAFluidView;
+			target = 521B89D018DE6930928376B79FBC69C1 /* BAFluidView */;
+			targetProxy = 6E3A18527F1AD610D23846DDDCDF2E22 /* PBXContainerItemProxy */;
+		};
+		D3FBBE550028A8767B835B93CFA4F883 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AVFoundationRelaxationAudio";
+			target = FFC35080F0DE5B31F2CD933E4EF7E66A /* Pods-AVFoundationRelaxationAudio */;
+			targetProxy = 8E5E8BE2807F57D61C8247E1EE8DD02C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00C8688A7DD11E306133847320E0D094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C7205F93CEDFE2EF5A9FC011BBAF3B0 /* BAFluidView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BAFluidView/BAFluidView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BAFluidView/BAFluidView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BAFluidView/BAFluidView.modulemap";
+				PRODUCT_MODULE_NAME = BAFluidView;
+				PRODUCT_NAME = BAFluidView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0E037C1D98B91975CF10E84C243E6F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3DEA402A7478B27DE161031AF10FFB9 /* Pods-AVFoundationRelaxationAudioTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AVFoundationRelaxationAudioTests/Pods-AVFoundationRelaxationAudioTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AVFoundationRelaxationAudioTests/Pods-AVFoundationRelaxationAudioTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		206221380E21070C97C10A775B565AAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2666DF0B4A1E0208A4EE9FE21EF947 /* Pods-AVFoundationRelaxationAudio.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AVFoundationRelaxationAudio/Pods-AVFoundationRelaxationAudio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AVFoundationRelaxationAudio/Pods-AVFoundationRelaxationAudio.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E4843E6C3DB2CF39C8CCA2AFEE74FD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98E30F6D393A35124838138A54605A06 /* Pods-AVFoundationRelaxationAudio.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AVFoundationRelaxationAudio/Pods-AVFoundationRelaxationAudio-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AVFoundationRelaxationAudio/Pods-AVFoundationRelaxationAudio.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4C3C4408C2665DE8281794A55F7DFFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DAF11E7AE031C7EEA1DE0FA77CFFC33 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests/Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests/Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ADA373B399653156621C6EE38963851C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E2E8E7C8631890D832DCE0CD59706E /* BAFluidView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BAFluidView/BAFluidView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BAFluidView/BAFluidView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BAFluidView/BAFluidView.modulemap";
+				PRODUCT_MODULE_NAME = BAFluidView;
+				PRODUCT_NAME = BAFluidView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C05959D8DBD905BE2C69C625ABFD59FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6669E5810BFC6AFD0B4F317B21413261 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests/Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests/Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D3A2D20EEF05F98D54FACA8B49D89611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DCE85DD3EA5B0CDF91895836E94DF58 /* Pods-AVFoundationRelaxationAudioTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AVFoundationRelaxationAudioTests/Pods-AVFoundationRelaxationAudioTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AVFoundationRelaxationAudioTests/Pods-AVFoundationRelaxationAudioTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		384AF282CD77255D45DE91D52396B0EA /* Build configuration list for PBXNativeTarget "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05959D8DBD905BE2C69C625ABFD59FA /* Debug */,
+				4C3C4408C2665DE8281794A55F7DFFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E48EBCA47D2FCE087834F9CD5432227 /* Build configuration list for PBXNativeTarget "BAFluidView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADA373B399653156621C6EE38963851C /* Debug */,
+				00C8688A7DD11E306133847320E0D094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71059D3EF335C1AA9606421C7BE65FA0 /* Build configuration list for PBXNativeTarget "Pods-AVFoundationRelaxationAudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E037C1D98B91975CF10E84C243E6F77 /* Debug */,
+				D3A2D20EEF05F98D54FACA8B49D89611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EE34F1C336469295EA92690223EC0E1 /* Build configuration list for PBXNativeTarget "Pods-AVFoundationRelaxationAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E4843E6C3DB2CF39C8CCA2AFEE74FD2 /* Debug */,
+				206221380E21070C97C10A775B565AAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
