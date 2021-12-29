@@ -21,7 +21,7 @@
 		84BF518C277AD4AC0036AC23 /* AVFoundationRelaxationAudioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF518B277AD4AC0036AC23 /* AVFoundationRelaxationAudioUITests.swift */; };
 		84BF518E277AD4AC0036AC23 /* AVFoundationRelaxationAudioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF518D277AD4AC0036AC23 /* AVFoundationRelaxationAudioUITestsLaunchTests.swift */; };
 		84BF519F277AD9450036AC23 /* StarsAndRainUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BF519E277AD9450036AC23 /* StarsAndRainUIViewController.swift */; };
-		84BF51A1277B28D70036AC23 /* Demi-Lovato-Sober-Official-Audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84BF51A0277B28D70036AC23 /* Demi-Lovato-Sober-Official-Audio.mp3 */; };
+		84BF51A1277B28D70036AC23 /* Demi-Lovato-Sober.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84BF51A0277B28D70036AC23 /* Demi-Lovato-Sober.mp3 */; };
 		B16B2EE03FC5944C99B2EA03 /* Pods_AVFoundationRelaxationAudioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 422D38692C043C70246EB82B /* Pods_AVFoundationRelaxationAudioTests.framework */; };
 		DC13C0AFDD87D7E6F138A131 /* Pods_AVFoundationRelaxationAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CEA39217D8AEAA21DA536C6 /* Pods_AVFoundationRelaxationAudio.framework */; };
 /* End PBXBuildFile section */
@@ -67,7 +67,7 @@
 		84BF518B277AD4AC0036AC23 /* AVFoundationRelaxationAudioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundationRelaxationAudioUITests.swift; sourceTree = "<group>"; };
 		84BF518D277AD4AC0036AC23 /* AVFoundationRelaxationAudioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundationRelaxationAudioUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		84BF519E277AD9450036AC23 /* StarsAndRainUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsAndRainUIViewController.swift; sourceTree = "<group>"; };
-		84BF51A0277B28D70036AC23 /* Demi-Lovato-Sober-Official-Audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Demi-Lovato-Sober-Official-Audio.mp3"; sourceTree = "<group>"; };
+		84BF51A0277B28D70036AC23 /* Demi-Lovato-Sober.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Demi-Lovato-Sober.mp3"; sourceTree = "<group>"; };
 		88D0F353FE8A4F17AE290E30 /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.debug.xcconfig"; path = "Target Support Files/Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests/Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		9569BDACE4ECABAF04DD1FEE /* Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.release.xcconfig"; path = "Target Support Files/Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests/Pods-AVFoundationRelaxationAudio-AVFoundationRelaxationAudioUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DC9B725D03D5EE79B8FCA9B6 /* Pods-AVFoundationRelaxationAudio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVFoundationRelaxationAudio.debug.xcconfig"; path = "Target Support Files/Pods-AVFoundationRelaxationAudio/Pods-AVFoundationRelaxationAudio.debug.xcconfig"; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 			children = (
 				84BF5167277AD4A90036AC23 /* AppDelegate.swift */,
 				84BF5169277AD4A90036AC23 /* SceneDelegate.swift */,
-				84BF51A0277B28D70036AC23 /* Demi-Lovato-Sober-Official-Audio.mp3 */,
+				84BF51A0277B28D70036AC23 /* Demi-Lovato-Sober.mp3 */,
 				84BF516B277AD4A90036AC23 /* AudioViewController.swift */,
 				84BF519E277AD9450036AC23 /* StarsAndRainUIViewController.swift */,
 				8417E08A277B8371002298C4 /* DetailsAlertUIView.swift */,
@@ -291,7 +291,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84BF51A1277B28D70036AC23 /* Demi-Lovato-Sober-Official-Audio.mp3 in Resources */,
+				84BF51A1277B28D70036AC23 /* Demi-Lovato-Sober.mp3 in Resources */,
 				84BF5177277AD4AC0036AC23 /* LaunchScreen.storyboard in Resources */,
 				84BF5174277AD4AC0036AC23 /* Assets.xcassets in Resources */,
 				84BF516F277AD4A90036AC23 /* Main.storyboard in Resources */,

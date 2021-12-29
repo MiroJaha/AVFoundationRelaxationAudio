@@ -52,7 +52,7 @@ class AudioViewController: UIViewController {
     }
     
     func settingAudioData() {
-        let urlString = Bundle.main.path(forResource: "Demi-Lovato-Sober-Official-Audio", ofType: "mp3")
+        let urlString = Bundle.main.path(forResource: "Demi-Lovato-Sober", ofType: "mp3")
         do {
             try AVAudioSession.sharedInstance().setMode(.default)
             try AVAudioSession.sharedInstance().setActive(true, options: .notifyOthersOnDeactivation)
